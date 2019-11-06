@@ -2,7 +2,7 @@
 
 
 <!--GET NAME-->
-<form>
+<form action="fortune_results">
     <p>What is your Name?</p>
         First name:<br>
         <input type="text" name="firstname"><br>
@@ -12,12 +12,12 @@
 
 <br>
 <!--Siblings -->
-<form>
+
         <p>How many siblings do you have?</p>
             Siblings:<br>
             <input type="text" name="siblings"><br>
            
-    </form>
+   
 
     <br>
 <!--bevrage dropdown-->
@@ -48,11 +48,10 @@
 
 <!--Checkbox-->
 <p>What cities have you been to? Check all that apply</p>
-<input type="checkbox" name="city1" value="france">Paris<br>
-<input type="checkbox" name="city2" value="japan"> Tokyo<br>
-<input type="checkbox" name="city3" value="usa" checked> San Francisco<br>
-
+<input type="checkbox" name="city" value="Paris">Paris<br>
+<input type="checkbox" name="city" value="Tokyo"> Tokyo<br>
+<input type="checkbox" name="city" value="San Francisco" checked> San Francisco<br>
+<input type="submit">
 </form>
 <br>
 
-<input type="submit">
